@@ -1,8 +1,9 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+//剥离js、css文，不编译到vendor.js中. 在index.html里增加CDN地址
+//import Vue from 'vue'
+//import VueRouter from 'vue-router'
 import App from './App.vue'
 
-Vue.use(VueRouter);
+//Vue.use(VueRouter);
 
 /* 非懒加载
 import one from './components/one.vue'

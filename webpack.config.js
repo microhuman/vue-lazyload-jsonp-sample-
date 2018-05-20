@@ -9,6 +9,7 @@ module.exports = {
     filename: 'vendor.js'
   },
   
+  //App.js里不import就已经将库排除，所以不需要在这里在写例外
   externals:{
     //'vue': 'Vue',
     //'vue-router': 'VueRouter',

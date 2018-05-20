@@ -10,11 +10,14 @@
   </head>
   <body>
     <div id="loading" style="display: none; opacity: 0.0;">
-      <img src="./dist/static/loading.gif" alt="loading" />
+      <img src="https://cdn.bootcss.com/bootstrap-fileinput/4.4.8/img/loading.gif" alt="loading" />
     </div>
     <div id="appview">
       <div id="app"></div>
     </div>
+    <!-- App.js 剥离js、css文，不编译到vendor.js  -->
+    <script src="https://cdn.bootcss.com/vue/2.5.16/vue.min.js"></script>
+    <script src="https://cdn.bootcss.com/vue-router/3.0.1/vue-router.min.js"></script>
     <script src="./dist/vendor.js"></script>
   </body>
 </html>
